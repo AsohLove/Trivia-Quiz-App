@@ -2,7 +2,7 @@ import type { ResultScreenProps, StartScreenProps } from "../types/database";
 
 export const StartScreen = ({ onStart }: StartScreenProps) => (
   <div className="flex flex-col items-center justify-center h-screen gap-6">
-    <h1 className="font-bold text-4xl text-blue-600">Trivia App</h1>
+    <h1 className="font-bold text-4xl text-blue-600">Trivia Quiz App</h1>
     <button 
       className="p-4 px-10 bg-green-500 hover:bg-green-600 rounded-lg text-white font-bold text-xl transition-all"
       onClick={onStart}
